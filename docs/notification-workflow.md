@@ -29,7 +29,7 @@ with it, we want to remove the notification again.
         ->setUser('recipient1')
         ->setDateTime(new DateTime())
         ->setObject('remote', '1337') // $type and $id
-        ->setSubject('remote_share', ['originator'1,'/fancyFolder']) // $subject and $parameters
+        ->setSubject('remote_share', ['originator1','/fancyFolder']) // $subject and $parameters
         ->addAction($acceptAction)
         ->addAction($declineAction)
     ;
